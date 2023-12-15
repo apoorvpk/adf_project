@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=APOORV_PRATEEK\\SQLEXPRESS;initial catalog=AdventureWorks2022;user id=APK",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNGZhYzRiMC0zODkzLTQ5OTUtOTE0Yi05MDk5MmU4ZDg0N2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedAP",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
